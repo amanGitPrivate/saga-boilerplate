@@ -1,0 +1,33 @@
+.buttonBaseClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 20px;
+    padding: 2px;
+}
+
+.standardButton {
+    @extend .buttonBaseClass;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.saveButton {
+    @extend .buttonBaseClass;
+    color: white;
+    background-color: black;
+}
+
+.statusButtonLive {
+    @extend .buttonBaseClass;
+    background-color: #ECECEC;
+    color: grey;
+}
+
+.statusButtonDraft {
+    @extend .buttonBaseClass;
+    background-color: pink;
+    color: white;
+}

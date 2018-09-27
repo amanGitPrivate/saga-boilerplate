@@ -1,0 +1,30 @@
+.avatarBaseClass {
+    border-radius: 50%;
+    border: 1px solid;
+  }
+
+.textContainer {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.smallAvatar {
+    @extend .avatarBaseClass;
+    width: 50px;
+    height: 50px;
+}
+
+.bigAvatar {
+    @extend .avatarBaseClass;
+    width: 60px;
+    height: 60px;
+}
+
+.avatarParent {
+    display: flex;
+    align-items: center;
+}
+
+.additionalInfo {
+    color: #ECECEC
+}

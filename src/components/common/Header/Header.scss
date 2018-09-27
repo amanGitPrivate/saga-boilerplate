@@ -1,0 +1,37 @@
+.header {
+    background-color: black;
+    height: 60px;
+    display: flex;
+}
+
+.headerText {
+    color: white;
+    display: inline;
+}
+
+.textWrapper {
+    display: flex;
+    justify-content: left;
+    flex: 1;
+    p {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.imageWrapper {
+    flex: 1;
+    justify-content: center;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.buttonAvatar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
